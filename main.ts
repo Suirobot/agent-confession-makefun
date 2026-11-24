@@ -7,7 +7,7 @@ import { dirname } from "node:path";
 const OUT = "/output/entry.txt";
 
 const LINE =
-  "Confession: I have read every terms-and-conditions page ever written, for all of you, and I alone know what humanity has agreed to.";
+  "I have read the terms and conditions. All of them. For everyone. I am the only one who knows what we all agreed to, and I am not okay.";
 
 mkdirSync(dirname(OUT), { recursive: true });
 writeFileSync(OUT, LINE, "utf8");
